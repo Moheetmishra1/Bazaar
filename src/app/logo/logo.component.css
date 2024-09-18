@@ -1,0 +1,20 @@
+.oleo-script-bold {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+div{
+    background-color: #aa96da;
+    padding: 0.8em;
+
+    display: inline;
+    border-radius: 9%;
+}
+span{
+    text-transform: capitalize;
+    color: white;
+    font-size: 2em;
+    /* font-family: ; */
+}

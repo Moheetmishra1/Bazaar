@@ -1,0 +1,39 @@
+
+.loginBack{
+    height: 100vh;
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2em; */
+}
+
+.form-signin{
+    width: 30vw;
+    box-shadow: 2px 2px 5px rgb(88, 85, 85);
+    padding: 2em;
+    border: 10px solid #7961eb;
+    border-radius: 1em;
+    background-color: white;
+}
+
+
+@media (max-width:730px){
+    .form-signin{
+        width: 50vw;
+        /* height: 50vh;   */
+    }
+}
+
+@media (max-width:400px){
+    .form-signin{
+        width: 70vw;
+        height: 50vh;  
+    }
+}
+@media (max-width:330px){
+    .form-signin{
+        /* width: 70vw; */
+        height: 55vh;  
+    }
+}
