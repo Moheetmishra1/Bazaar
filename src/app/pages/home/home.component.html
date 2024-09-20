@@ -1,0 +1,28 @@
+<div class="body">
+<app-nav-bar-home />
+<app-navbar />
+<hr>
+<header>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <!-- <app-logo /> -->
+          <div class="">
+            <img [src]="bannerImgs[imagePath()].img" [height]="bannerImgs[imagePath()].height" class="d-block w-100" alt="...">
+            <p>{{bannerImgs[imagePath()]}}</p>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" (click)="onClickSlide('previous')" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" (click)="onClickSlide('next')" >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"  >Next</span>
+        </button>
+      </div>
+     <app-slider [bannerImgs]="bannerImgs" />
+</header>
+
+
+</div>
