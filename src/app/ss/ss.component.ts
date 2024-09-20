@@ -9,7 +9,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrl: './ss.component.css'
 })
 export class SsComponent implements OnInit {
-
+mohit="mohit";
   signUpForm: FormGroup | undefined;
   constructor() { }
 
