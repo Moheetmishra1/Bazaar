@@ -27,6 +27,8 @@ export class ViewComponent implements OnInit {
     }).subscribe({
       next:(ValData)=>{
         if(ValData.body){
+          console.log(ValData.body);
+          
           this.product=ValData.body;
         }
       }

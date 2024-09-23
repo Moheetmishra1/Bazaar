@@ -30,11 +30,12 @@ export class CartComponent {
   }
 
     onViewProducts(){
-console.log(this.product?.id);
-
-      this.router.navigate(['products' ,'view',this.product?.id],{
+      console.log(this.product?.id);
+      this.router.navigate(['view',this.product?.id],{
         
       });
     }
+    onCart(){
 
+    }
 }
